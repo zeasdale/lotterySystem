@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>about</class>
+ <widget class="QDialog" name="about">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>330</width>
+    <height>222</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;使用上简单，注意几点，关闭窗口后如果已经导入过文件，&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;请不要再继续导入，如果抽取多次只需要更改抽取数字跟&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;重复或不重复按钮即可&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;此软件临时编写，没有做的很详细，需要新增的功能以&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;后再说，哥还挺忙的，用不来请打电话给信息科小孙，&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;13505728869&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
